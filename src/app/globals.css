@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-text: #0f172a;
+  --brand-accent: #334155;
+  --brand-bg: #f8fafc;
+}
+
+html, body { height: 100%; }
+body { background: var(--brand-bg); color: var(--brand-text); }
